@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventUserComponent } from './event-user.component';
+import { PublisherComponent } from './publisher.component';
 
-describe('EventUserComponent', () => {
-  let component: EventUserComponent;
-  let fixture: ComponentFixture<EventUserComponent>;
+describe('PublisherComponent', () => {
+  let component: PublisherComponent;
+  let fixture: ComponentFixture<PublisherComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EventUserComponent ]
+      declarations: [ PublisherComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventUserComponent);
+    fixture = TestBed.createComponent(PublisherComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
