@@ -1,1 +1,16 @@
-<p>event-info works!</p>
+<div *ngIf=event class=eventDetails>
+    <div class=eventInfo>
+        <h2 class="event tittle">Info: {{event.title | uppercase}}</h2>
+        <div></div>  
+    </div>
+    <div class="eventDetail">
+        <img src={{event.image}} alt="Event Poster" class="eventPoster">
+        <div>
+        <h2 class="about">Dato: {{event.Date}} | Type: {{event.Type}} | Udbydder: {{event.publisherId}} | Pris: {{event.money}}</h2>
+        <h3 class="eventResume">{{event.info}}</h3>
+        </div>
+    </div>
+</div>
+
+<button (click)="goBack()" class="goBack">go back</button>
+<button routerLink="/theaters" class="goBack">Find Biograf</button>

@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+$primary-color: #272727;
+$secondary-color: #ff652f;
+
+/* Application-wide Styles */
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    margin: 5px 0 5px 0;
+}
+
+h2, h3 {
+    color: rgb(220, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.title {
+    font-size: 200%;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    //align-items: center;
+    //text-align: center;
+    background:
+    linear-gradient(
+        to right,
+        rgba($primary-color, 0.3),
+        rgba($primary-color, 0.3)
+    ),
+    url('assets/palads.jpeg') center top;
+    background-size: cover;
+}
+
+
+body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+}
+
+/* everywhere else */
+* {
+    font-family: Arial, sans-serif;
+    color: rgb(220, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

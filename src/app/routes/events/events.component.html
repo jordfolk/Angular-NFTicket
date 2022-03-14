@@ -1,1 +1,12 @@
-<p>events works!</p>
+<link rel="stylesheet" href="events.component.scss">
+
+<div class="title">Nuværende Events</div>
+
+<ul class="event">
+    <li *ngFor="let event of events">
+        <a routerLink="/detail/{{event.id}}">
+            <span class="poster">{{event.id}}</span> {{event.title}}
+        </a>
+    </li>
+</ul>
+
