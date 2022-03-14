@@ -1,0 +1,28 @@
+.eventDetail {
+    display: flex;
+}
+.about {
+    margin: 0 0 2rem 0;
+}
+
+.eventPoster {
+    width: auto;
+    height: auto;
+    max-width: 27%;
+    min-width: 400px;
+    max-height: 600px;
+    border: solid black 1px;
+    margin: 0 2rem 0 1rem;
+
+}
+
+.eventResume {
+    padding-right: 3rem;
+    line-height: 2;
+}
+
+.goBack {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 3rem;
+}
