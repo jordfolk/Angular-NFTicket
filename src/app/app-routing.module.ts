@@ -12,8 +12,8 @@ const routes: Routes = [
     {path: '', redirectTo: '/events', pathMatch: 'full' },
     {path: 'event/id', component: EventInfoComponent},
     {path: 'publisher', component: PublisherComponent},
-    {path: 'Admin', component: AdminComponent},
-    {path: 'Login', component: LoginComponent}
+    {path: 'admin', component: AdminComponent},
+    {path: 'login', component: LoginComponent}
 ];
 
 @NgModule({

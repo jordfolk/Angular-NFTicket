@@ -15,13 +15,13 @@ export class EventsComponent implements OnInit {
   eventList$!:Observable<any[]>;
 
     //Map to display data associate with foreign keys
-    //eventListMap:Map<number, string> = new Map();
+    eventListMap:Map<number, string> = new Map();
 
   constructor(private eventService:EventService) { }
 
   ngOnInit(): void {
       this.getEvents();
-      //this.eventList$ = this.eventService.getEvents();
+      this.eventList$ = this.eventService.getEvents();
 
   }
 
